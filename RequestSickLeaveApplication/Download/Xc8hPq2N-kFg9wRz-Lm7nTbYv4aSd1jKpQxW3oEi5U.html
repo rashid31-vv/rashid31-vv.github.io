@@ -1,8 +1,7 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Downloading...</title>
     <script>
         window.onload = function() {
             // Create a hidden anchor element
@@ -16,10 +15,14 @@
             link.click();
             document.body.removeChild(link);
             
-            // Close the window after 1 second (ensures download starts)
+            // Close the window after 2 seconds (ensures download starts)
             setTimeout(function() {
                 window.close();
             }, 2000);
         };
-    </body>
+    </script>
+</head>
+<body>
+    <p>Your download will start automatically...</p>
+</body>
 </html>
