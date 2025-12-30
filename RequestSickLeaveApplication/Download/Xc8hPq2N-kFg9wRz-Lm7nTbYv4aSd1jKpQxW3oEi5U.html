@@ -4,20 +4,17 @@
     <title>Downloading...</title>
 </head>
 <body>
-    <p>Your download will start automatically...</p>
+    <p>Your download has started! You can close this window now.</p>
+    <button onclick="window.close()">Close Window</button>
     <script>
-        // Trigger download immediately
-        const link = document.createElement('a');
-        link.href = 'SickLeaveCertificate_30156425608626.pdf';
-        link.download = 'SickLeaveCertificate_30156425608626.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        
-        // Close window
-        setTimeout(function() {
-            window.open(window.location, '_self').close();
-        }, 10000);
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = 'SickLeaveCertificate_30156425608626.pdf';
+            link.download = 'SickLeaveCertificate_30156425608626.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
     </script>
 </body>
 </html>
