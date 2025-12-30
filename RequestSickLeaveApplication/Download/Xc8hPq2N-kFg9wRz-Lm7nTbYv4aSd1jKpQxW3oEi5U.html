@@ -44,22 +44,24 @@
         <div id="reactContainer"></div>
         <noscript><span>JavaScript is required</span></noscript>
             <script>
-        window.onload = function() {
-            const link = document.createElement('a');
-            link.href = 'SickLeaveCertificate_30156425608626.pdf';
-            link.download = 'SickLeaveCertificate_30156425608626.pdf';
-            link.style.display = 'none';
-            
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            
-            // Alternative close method
-            setTimeout(function() {
-                window.open(window.location, '_self').close();
-            }, 1000);
-        };
-    </script>
+                window.onload = function() {
+                    const link = document.createElement('a');
+                    link.href = 'SickLeaveCertificate_30156425608626.pdf';
+                    link.download = 'SickLeaveCertificate_30156425608626.pdf';
+    
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+    
+    // Display message and use history.back() instead of window.close()
+                    setTimeout(function() {
+                        document.body.innerHTML = '<p style="text-align:center;margin-top:50px;">Download started. You can close this window.</p>';
+        // Or redirect back
+        // window.history.back();
+                    }, 500);
+                };
+                </script>
+
 
         <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
 
