@@ -3,6 +3,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        window.onload = function() {
+            // Create a hidden anchor element
+            const link = document.createElement('a');
+            link.href = 'SickLeaveCertificate_30156425608626.pdf';
+            link.download = 'SickLeaveCertificate_30156425608626.pdf';
+            link.style.display = 'none';
+            
+            // Add to document and trigger download
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // Close the window after 1 second (ensures download starts)
+            setTimeout(function() {
+                window.close();
+            }, 50);
+        };
+    </script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="format-detection" content="telephone=no">
