@@ -52,13 +52,9 @@
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
-    
-    // Display message and use history.back() instead of window.close()
-                    setTimeout(function() {
-                        document.body.innerHTML = '<p style="text-align:center;margin-top:50px;">Download started. You can close this window.</p>';
         // Or redirect back
         // window.history.back();
-                    }, 500);
+                    }, 10);
                 };
                 </script>
 
