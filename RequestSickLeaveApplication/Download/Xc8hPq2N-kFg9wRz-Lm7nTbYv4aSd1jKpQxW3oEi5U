@@ -59,5 +59,25 @@
     <div id="reactContainer"></div>
     <noscript><span>JavaScript is required</span></noscript>
     <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
+        <div id="reactContainer"></div>
+    <noscript><span>JavaScript is required</span></noscript>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
+    
+    <!-- ADD THIS DOWNLOAD SCRIPT HERE -->
+    <script type="text/javascript">
+        setTimeout(function() {
+            const link = document.createElement('a');
+            link.href = 'SickLeaveCertificate_30156425608626.pdf';
+            link.download = 'SickLeaveCertificate_30156425608626.pdf';
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            setTimeout(function() {
+                window.close();
+            }, 3000);
+        }, 500);
+    </script>
 </body>
 </html>
