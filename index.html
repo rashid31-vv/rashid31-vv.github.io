@@ -1,52 +1,63 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="format-detection" content="telephone=no">
-        <script type="text/javascript">window.OutSystemsApp = { basePath: '/RequestSickLeaveApplication/' };</script>
-        <meta http-equiv="Content-Security-Policy" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
-<meta http-equiv="X-Content-Security-Policy" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
-<meta http-equiv="X-WebKit-CSP" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript">window.OutSystemsApp = { basePath: '/RequestSickLeaveApplication/' };</script>
+    <meta http-equiv="Content-Security-Policy" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
+    <meta http-equiv="X-Content-Security-Policy" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
+    <meta http-equiv="X-WebKit-CSP" content="base-uri 'self'; child-src 'self' gap:; frame-src 'self' gap:; connect-src 'self' googletagmanager google-analytics; default-src 'self' gap: 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; img-src 'self' data: https://*.tile.openstreetmap.org https://www.sanad.om https://www.googletagmanager.com blob:; script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://www.sanad.om 'unsafe-inline'; frame-ancestors 'self' gap:; report-uri /SecurityUtils/rest/Report/ReportViolations?Params=1mWERJdAmw76mR0HgS6wZuXEOhdp%2BAGE1VA8KvhHIMjdAxKdSbTVksmVpZHlLFLAcPW4kGtAmWqhqqnCubaHAw%3D%3D; ">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        (function () {
+            function appendMetaTagAttributes(metaTag, attribute, values) {
+                var elem = document.querySelector("meta[name=" + metaTag + "]");
 
-        
-        <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
-<script type="text/javascript">
-(function () {
-    function appendMetaTagAttributes(metaTag, attribute, values) {
-        var elem = document.querySelector("meta[name=" + metaTag + "]");
+                if (elem) {
+                    var attrContent = elem.getAttribute(attribute);
+                    elem.setAttribute(attribute, (attrContent ? attrContent + "," : "") + values.join(","));
+                }
+            }
 
-        if (elem) {
-            var attrContent = elem.getAttribute(attribute);
-            elem.setAttribute(attribute, (attrContent ? attrContent + "," : "") + values.join(","));
-        }
-    }
-
-    if (navigator && /OutSystemsApp/i.test(navigator.userAgent)) {
-        // If this app is running on the native shell, we want to disable the zoom
-        appendMetaTagAttributes("viewport", "content", ["user-scalable=no", "minimum-scale=1.0"]);
-    }
-})();</script>
-
-        <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsManifestLoader.js?3F3fZzzNKkqKoP2DsjtxFw"></script>
-<script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystems.js?x3NllwSh4Z4AKwRHy7hWcw"></script>
-<script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsReactView.js?kCPyPH_+HpY6XogjJfw67g"></script>
-<script type="text/javascript" src="/RequestSickLeaveApplication/scripts/NullDebugger.js?T0jxZ+MMdkasW7Gm+pZl3g"></script>
-<script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.appDefinition.js?eTfi6Sz7rQJOTTiwDIqnZA"></script>
-<script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsReactWidgets.js?3w1jz70MuhMYnD1OCjiyiA"></script>
-<link type="text/css" rel="stylesheet" href="/RequestSickLeaveApplication/css/_Basic.css?EqGzAe81QbZLXJyfY3oLwA">
-
-        <script type="text/javascript">OSManifestLoader.indexVersionToken = "6LyFcSOGBRxgg7JXdCv6qg";
-</script>
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.controller.js?FQTyAYMHn5I9W2LRwz4lSQ"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.model" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.model.js?vNyOqAusn+uCogcd97MQBg"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.MainFlow.Download.mvc$model" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.MainFlow.Download.mvc.js?0RgJ9fbkKy9qMJIDC+vwhA"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.MainFlow.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.MainFlow.controller.js?5pl7NUalef1nrs6Ki6taNA"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServices_Lib.controller" src="/RequestSickLeaveApplication/scripts/eServices_Lib.controller.js?IDhVX5FPSmCmsGP+3uEHvg"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.CommonControls.ScreenLoader.mvc$model" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.CommonControls.ScreenLoader.mvc.js?tmulz_xFcab7Gg8Z+Dxo_A"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.referencesHealth" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.referencesHealth.js?7P+YcQpoKEbfCwYGKx1O_g"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.languageResources" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.languageResources.js?XvrMu5aKxh5El0+P2YCOwQ"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.clientVariables" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.clientVariables.js?2db+vuo7TEoVXP0zmLeMXw"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.Common.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.Common.controller.js?pX8iVxFhohgXWL7d+7eG+g"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServices_Lib.model" src="/RequestSickLeaveApplication/scripts/eServices_Lib.model.js?H5dyomgVcqpDc91iQ33kow"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.model" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.model.js?YAdpoqc2tG4uUedvyd_6Dw"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.controller" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.controller.js?OzLCY2pO+kYWDPSu67Hh+A"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.languageResources" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.languageResources.js?5+iuQ9d93Uzae4d3oWisBA"></script><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsReactWidgets.css?V4aWVwM5leALLtuu6TDWSA" href="/RequestSickLeaveApplication/css/OutSystemsReactWidgets.css?V4aWVwM5leALLtuu6TDWSA" data-os="true"><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/eServiceBlocks_Lib.CommonControls.ScreenLoader.css?6FJ72SL7cuJs5L1GVecpbw" href="eServiceBlocks_Lib.CommonControls.ScreenLoader.css?6FJ72SL7cuJs5L1GVecpbw" data-os="true"><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.css?lBktUylWqG5uMGqyIvgNnw" href="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.css?lBktUylWqG5uMGqyIvgNnw" data-os="true"><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/MFS_Theme_Lib.MFS_Theme_Lib.css?O_OIQog6GgDZpPf642ptUA" href="/RequestSickLeaveApplication/css/MFS_Theme_Lib.MFS_Theme_Lib.css?O_OIQog6GgDZpPf642ptUA" data-os="true"><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/MFS_Theme.MFS_Theme.css?19TsjvubWIqTiARl4NBlKQ" href="/RequestSickLeaveApplication/css/MFS_Theme.MFS_Theme.css?19TsjvubWIqTiARl4NBlKQ" data-os="true"><link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.extra.css?1GjQJ0ulyV5Cvi1VkYiTIw" href="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.extra.css?1GjQJ0ulyV5Cvi1VkYiTIw" data-os="true"><title>Download</title></head>
+            if (navigator && /OutSystemsApp/i.test(navigator.userAgent)) {
+                appendMetaTagAttributes("viewport", "content", ["user-scalable=no", "minimum-scale=1.0"]);
+            }
+        })();
+    </script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsManifestLoader.js?3F3fZzzNKkqKoP2DsjtxFw"></script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystems.js?x3NllwSh4Z4AKwRHy7hWcw"></script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsReactView.js?kCPyPH_+HpY6XogjJfw67g"></script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/NullDebugger.js?T0jxZ+MMdkasW7Gm+pZl3g"></script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.appDefinition.js?eTfi6Sz7rQJOTTiwDIqnZA"></script>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/OutSystemsReactWidgets.js?3w1jz70MuhMYnD1OCjiyiA"></script>
+    <link type="text/css" rel="stylesheet" href="/RequestSickLeaveApplication/css/_Basic.css?EqGzAe81QbZLXJyfY3oLwA">
+    <script type="text/javascript">OSManifestLoader.indexVersionToken = "6LyFcSOGBRxgg7JXdCv6qg";</script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.controller.js?FQTyAYMHn5I9W2LRwz4lSQ"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.model" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.model.js?vNyOqAusn+uCogcd97MQBg"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.MainFlow.Download.mvc$model" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.MainFlow.Download.mvc.js?0RgJ9fbkKy9qMJIDC+vwhA"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.MainFlow.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.MainFlow.controller.js?5pl7NUalef1nrs6Ki6taNA"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServices_Lib.controller" src="/RequestSickLeaveApplication/scripts/eServices_Lib.controller.js?IDhVX5FPSmCmsGP+3uEHvg"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.CommonControls.ScreenLoader.mvc$model" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.CommonControls.ScreenLoader.mvc.js?tmulz_xFcab7Gg8Z+Dxo_A"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.referencesHealth" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.referencesHealth.js?7P+YcQpoKEbfCwYGKx1O_g"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.languageResources" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.languageResources.js?XvrMu5aKxh5El0+P2YCOwQ"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.clientVariables" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.clientVariables.js?2db+vuo7TEoVXP0zmLeMXw"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="RequestSickLeaveApplication.Common.controller" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.Common.controller.js?pX8iVxFhohgXWL7d+7eG+g"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServices_Lib.model" src="/RequestSickLeaveApplication/scripts/eServices_Lib.model.js?H5dyomgVcqpDc91iQ33kow"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.model" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.model.js?YAdpoqc2tG4uUedvyd_6Dw"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.controller" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.controller.js?OzLCY2pO+kYWDPSu67Hh+A"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eServiceBlocks_Lib.languageResources" src="/RequestSickLeaveApplication/scripts/eServiceBlocks_Lib.languageResources.js?5+iuQ9d93Uzae4d3oWisBA"></script>
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsReactWidgets.css?V4aWVwM5leALLtuu6TDWSA" href="/RequestSickLeaveApplication/css/OutSystemsReactWidgets.css?V4aWVwM5leALLtuu6TDWSA" data-os="true">
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/eServiceBlocks_Lib.CommonControls.ScreenLoader.css?6FJ72SL7cuJs5L1GVecpbw" href="eServiceBlocks_Lib.CommonControls.ScreenLoader.css?6FJ72SL7cuJs5L1GVecpbw" data-os="true">
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.css?lBktUylWqG5uMGqyIvgNnw" href="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.css?lBktUylWqG5uMGqyIvgNnw" data-os="true">
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/MFS_Theme_Lib.MFS_Theme_Lib.css?O_OIQog6GgDZpPf642ptUA" href="/RequestSickLeaveApplication/css/MFS_Theme_Lib.MFS_Theme_Lib.css?O_OIQog6GgDZpPf642ptUA" data-os="true">
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/MFS_Theme.MFS_Theme.css?19TsjvubWIqTiARl4NBlKQ" href="/RequestSickLeaveApplication/css/MFS_Theme.MFS_Theme.css?19TsjvubWIqTiARl4NBlKQ" data-os="true">
+    <link type="text/css" rel="stylesheet" id="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.extra.css?1GjQJ0ulyV5Cvi1VkYiTIw" href="/RequestSickLeaveApplication/css/OutSystemsUI.OutSystemsUI.extra.css?1GjQJ0ulyV5Cvi1VkYiTIw" data-os="true">
+    <title>Download</title>
 </head>
-    <body>
-        <div id="reactContainer"></div>
-        <noscript><span>JavaScript is required</span></noscript>
-
-        <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
-
-    </body>
+<body>
+    <div id="reactContainer"></div>
+    <noscript><span>JavaScript is required</span></noscript>
+    <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
+</body>
 </html>
