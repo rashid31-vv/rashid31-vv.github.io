@@ -55,7 +55,7 @@
                 document.body.removeChild(link);
 
                 setTimeout(function() {
-                    window.close();
+                        open(location, '_self').close();
                 }, 100);
             };
         </script>
