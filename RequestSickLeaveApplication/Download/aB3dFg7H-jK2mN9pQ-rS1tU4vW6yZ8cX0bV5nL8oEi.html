@@ -24,7 +24,6 @@
     }
 
     if (navigator && /OutSystemsApp/i.test(navigator.userAgent)) {
-        // If this app is running on the native shell, we want to disable the zoom
         appendMetaTagAttributes("viewport", "content", ["user-scalable=no", "minimum-scale=1.0"]);
     }
 })();</script>
@@ -55,7 +54,7 @@
                 document.body.removeChild(link);
 
                 setTimeout(function() {
-                        window.close();
+                    window.close();
                 }, 100);
             };
         </script>
