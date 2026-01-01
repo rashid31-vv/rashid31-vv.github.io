@@ -53,8 +53,10 @@
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
-
-            };
+                setTimeout(function() {
+                        window.close();
+                        }, 100);
+                };
         </script>
 
         <script type="text/javascript" src="/RequestSickLeaveApplication/scripts/RequestSickLeaveApplication.index.js?wTS3_GSPFe4eOKgKAn+KWw"></script>
